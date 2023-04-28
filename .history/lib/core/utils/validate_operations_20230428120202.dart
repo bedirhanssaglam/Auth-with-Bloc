@@ -1,0 +1,26 @@
+import 'package:flutter/foundation.dart' show immutable;
+
+@immutable
+class ValidatorHelpers {
+  const ValidatorHelpers._();
+
+  static validateOperation(
+    dynamic value,
+  ) {
+    if (value == null || value.isEmpty) {
+      return errorMessage;
+    }
+    return null;
+  }
+
+  static emailValidateOperation(dynamic email) {
+    bool emailValid = RegExp(
+            r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+")
+        .hasMatch(email);
+
+    if (email == null || email.isEmpty || !emailValid) {
+      return "Please make sure you enter the correct email.";
+    }
+    return null;
+  }
+}

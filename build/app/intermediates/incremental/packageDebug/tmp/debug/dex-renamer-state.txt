@@ -1,0 +1,4 @@
+#Fri Apr 28 14:52:17 TRT 2023
+base.0=C\:\\Users\\bedir\\StudioProjects\\auth_with_bloc\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
