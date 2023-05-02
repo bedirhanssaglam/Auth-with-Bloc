@@ -13,8 +13,8 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml:3:5-67
-15-->C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml:3:22-64
+15-->C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml:3:5-67
+15-->C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml:3:22-64
 16
 17    <application
 18        android:name="android.app.Application"

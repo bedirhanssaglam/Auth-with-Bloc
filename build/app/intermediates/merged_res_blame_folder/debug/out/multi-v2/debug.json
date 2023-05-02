@@ -79,7 +79,7 @@
             "outputFile": "com.example.auth_with_bloc.app-merged_res-12:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\bedir\\StudioProjects\\auth_with_bloc\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\bedir\\OneDrive\\Belgeler\\GitHub\\Auth-with-Bloc\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -1117,7 +1117,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\bedir\\StudioProjects\\auth_with_bloc\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\bedir\\OneDrive\\Belgeler\\GitHub\\Auth-with-Bloc\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

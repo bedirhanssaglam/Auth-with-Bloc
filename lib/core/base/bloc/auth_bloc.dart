@@ -3,9 +3,7 @@ import 'dart:io';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/foundation.dart' show immutable;
-import 'package:auth_with_bloc/core/constants/enums/network_enums.dart';
 import '../../constants/enums/auth_enums.dart';
-import '../../init/cache/cache_manager.dart';
 import '../service/i_auth_service.dart';
 
 part 'auth_event.dart';
@@ -41,10 +39,6 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
           log(response.token!);
           await authService.updateToken(response.token);
           await authService.updateLoggedIn(true);
-          await CacheManager.setString(
-            NetworkEnums.token.path,
-            response.token!,
-          );
           emit(const AuthState.authenticated());
         } else {
           add(LogoutRequested());

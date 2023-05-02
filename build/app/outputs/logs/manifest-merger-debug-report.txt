@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml:4:4-34:19
+INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml:4:4-34:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\bedir\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\bedir\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.core:core:1.6.0] C:\Users\bedir\.gradle\caches\transforms-3\4ca28c4a71705f8a687c69dda140a277\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
@@ -10,15 +10,15 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\be
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] C:\Users\bedir\.gradle\caches\transforms-3\4ca28c4a71705f8a687c69dda140a277\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:name
-		INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml:1:1-35:12
-INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml:1:1-35:12
-INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml:1:1-35:12
-INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml:1:1-35:12
-MERGED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml:1:1-35:12
-MERGED from [:path_provider_android] C:\Users\bedir\StudioProjects\auth_with_bloc\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:flutter_secure_storage] C:\Users\bedir\StudioProjects\auth_with_bloc\build\flutter_secure_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
+ADDED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml:1:1-35:12
+MERGED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml:1:1-35:12
+MERGED from [:path_provider_android] C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_secure_storage] C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\build\flutter_secure_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\bedir\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\bedir\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.security:security-crypto:1.1.0-alpha04] C:\Users\bedir\.gradle\caches\transforms-3\721f6ff27a9d2d34046694447893c707\transformed\jetified-security-crypto-1.1.0-alpha04\AndroidManifest.xml:17:1-22:12
@@ -37,37 +37,37 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\be
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\bedir\.gradle\caches\transforms-3\e5168ae1d5ab03fe8bf4ee87d623deae\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\bedir\.gradle\caches\transforms-3\282676124ae0776b5645a1cee909808d\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\bedir\.gradle\caches\transforms-3\8965c941cf4bee4d72541b965c7c9d39\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\debug\AndroidManifest.xml:1:1-8:12
-INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\debug\AndroidManifest.xml:1:1-8:12
-INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\debug\AndroidManifest.xml:1:1-8:12
+INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\debug\AndroidManifest.xml:1:1-8:12
+INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\debug\AndroidManifest.xml:1:1-8:12
+INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\debug\AndroidManifest.xml:1:1-8:12
 	package
-		ADDED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml:2:5-41
-		INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\debug\AndroidManifest.xml
+		ADDED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml:2:5-41
+		INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml:1:1-35:12
-		INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml:1:1-35:12
+		INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml:1:1-35:12
-		INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml:1:1-35:12
+		INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml:3:5-67
-MERGED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml:3:5-67
-MERGED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml:3:5-67
+ADDED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml:3:5-67
+MERGED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml:3:5-67
+MERGED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml:3:5-67
 	android:name
-		ADDED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml:3:22-64
+		ADDED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml:3:22-64
 uses-sdk
-INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml
-MERGED from [:path_provider_android] C:\Users\bedir\StudioProjects\auth_with_bloc\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:path_provider_android] C:\Users\bedir\StudioProjects\auth_with_bloc\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_secure_storage] C:\Users\bedir\StudioProjects\auth_with_bloc\build\flutter_secure_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-9:53
-MERGED from [:flutter_secure_storage] C:\Users\bedir\StudioProjects\auth_with_bloc\build\flutter_secure_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-9:53
+INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml
+MERGED from [:path_provider_android] C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_secure_storage] C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\build\flutter_secure_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-9:53
+MERGED from [:flutter_secure_storage] C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\build\flutter_secure_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-9:53
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\bedir\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\bedir\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\bedir\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
@@ -104,16 +104,16 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\bedir\.gradl
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\bedir\.gradle\caches\transforms-3\282676124ae0776b5645a1cee909808d\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\bedir\.gradle\caches\transforms-3\8965c941cf4bee4d72541b965c7c9d39\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\bedir\.gradle\caches\transforms-3\8965c941cf4bee4d72541b965c7c9d39\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\debug\AndroidManifest.xml
-INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\debug\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [:flutter_secure_storage] C:\Users\bedir\StudioProjects\auth_with_bloc\build\flutter_secure_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-50
+		ADDED from [:flutter_secure_storage] C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\build\flutter_secure_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-50
 	android:targetSdkVersion
-		INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\bedir\StudioProjects\auth_with_bloc\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\bedir\OneDrive\Belgeler\GitHub\Auth-with-Bloc\android\app\src\debug\AndroidManifest.xml
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\bedir\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 	android:required

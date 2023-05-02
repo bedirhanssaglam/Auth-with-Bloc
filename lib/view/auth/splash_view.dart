@@ -29,18 +29,17 @@ class _SplashViewState extends State<SplashView> with TickerProviderStateMixin {
     super.initState();
     authBloc = context.read<AuthBloc>()..add(AppStarted());
 
+    /// For [animation]
     _controller = AnimationController(
       vsync: this,
       duration: const Duration(seconds: 2),
     )..repeat();
     _animation = Tween(begin: 0.0, end: 1.0).animate(_controller);
 
-    /// For [animation]
-
     authStream = authBloc.stream.listen((state) {
       if (state.status == AuthStatus.authenticated) {
         Future.delayed(const Duration(seconds: 2)).then(
-          (value) => Navigator.of(context).push(
+          (_) => Navigator.of(context).push(
             MaterialPageRoute(
               builder: (context) => const HomeView(),
             ),
@@ -48,7 +47,7 @@ class _SplashViewState extends State<SplashView> with TickerProviderStateMixin {
         );
       } else {
         Future.delayed(const Duration(seconds: 2)).then(
-          (value) => Navigator.of(context).push(
+          (_) => Navigator.of(context).push(
             MaterialPageRoute(
               builder: (context) => const LoginView(),
             ),
