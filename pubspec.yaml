@@ -26,6 +26,8 @@ dependencies:
   #State Management
   flutter_bloc: ^8.1.2
 
+  equatable:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

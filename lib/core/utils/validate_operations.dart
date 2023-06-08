@@ -1,5 +1,7 @@
 import 'package:flutter/foundation.dart' show immutable;
 
+import '../constants/app/string_constants.dart';
+
 @immutable
 class ValidateOperations {
   const ValidateOperations._();
@@ -8,7 +10,7 @@ class ValidateOperations {
     dynamic value,
   ) {
     if (value == null || value.isEmpty) {
-      return "Required field";
+      return StringConstants.requiredField;
     }
     return null;
   }
@@ -19,7 +21,7 @@ class ValidateOperations {
         .hasMatch(email);
 
     if (email == null || email.isEmpty || !emailValid) {
-      return "Please make sure you enter the correct email.";
+      return StringConstants.makeSureCorrectMail;
     }
     return null;
   }

@@ -3,13 +3,12 @@ import 'dart:async';
 import 'package:auth_with_bloc/core/constants/enums/icon_enums.dart';
 import 'package:auth_with_bloc/core/extensions/context_extensions.dart';
 import 'package:auth_with_bloc/core/extensions/image_extensions.dart';
-import 'package:auth_with_bloc/view/auth/login_view.dart';
+import 'package:auth_with_bloc/core/extensions/navigate_extension.dart';
+import 'package:auth_with_bloc/core/utils/navigate_util.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../core/base/bloc/auth_bloc.dart';
-import '../../core/constants/enums/auth_enums.dart';
-import '../home/home_view.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});
@@ -37,31 +36,9 @@ class _SplashViewState extends State<SplashView> with TickerProviderStateMixin {
     _animation = Tween(begin: 0.0, end: 1.0).animate(_controller);
 
     authStream = authBloc.stream.listen((state) {
-      if (state.status == AuthStatus.authenticated) {
-        Future.delayed(const Duration(seconds: 2)).then(
-          (_) => Navigator.of(context).push(
-            MaterialPageRoute(
-              builder: (context) => const HomeView(),
-            ),
-          ),
-        );
-      } else {
-        Future.delayed(const Duration(seconds: 2)).then(
-          (_) => Navigator.of(context).push(
-            MaterialPageRoute(
-              builder: (context) => const LoginView(),
-            ),
-          ),
-        );
-      }
+      Future.delayed(const Duration(seconds: 2)).then((_) =>
+          NavigateUtil().navigateToView(context, state.status.firstView));
     });
-  }
-
-  @override
-  void dispose() {
-    authStream.cancel();
-    _controller.dispose();
-    super.dispose();
   }
 
   @override
@@ -78,5 +55,12 @@ class _SplashViewState extends State<SplashView> with TickerProviderStateMixin {
         ),
       ),
     );
+  }
+
+  @override
+  void dispose() {
+    authStream.cancel();
+    _controller.dispose();
+    super.dispose();
   }
 }

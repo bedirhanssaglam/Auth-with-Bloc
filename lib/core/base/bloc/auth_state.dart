@@ -1,7 +1,6 @@
 part of 'auth_bloc.dart';
 
-@immutable
-class AuthState {
+class AuthState extends Equatable {
   final AuthStatus status;
   final bool isFirstEntry;
   final AuthError? error;
@@ -30,4 +29,7 @@ class AuthState {
 
   const AuthState.error({AuthError error = AuthError.unknown})
       : this._(status: AuthStatus.unknown, isFirstEntry: false, error: error);
+
+  @override
+  List<Object?> get props => [status, isFirstEntry, error];
 }

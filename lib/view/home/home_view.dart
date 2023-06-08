@@ -1,5 +1,6 @@
 import 'package:auth_with_bloc/core/components/appbar/appbar.dart';
 import 'package:auth_with_bloc/core/components/text/custom_text.dart';
+import 'package:auth_with_bloc/core/constants/app/string_constants.dart';
 import 'package:flutter/material.dart';
 
 class HomeView extends StatefulWidget {
@@ -13,11 +14,9 @@ class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: CustomAppBar(
-        isHome: true,
-      ),
+      appBar: CustomAppBar(isHome: true),
       body: const Center(
-        child: CustomText("Home Page"),
+        child: CustomText(StringConstants.homePage),
       ),
     );
   }

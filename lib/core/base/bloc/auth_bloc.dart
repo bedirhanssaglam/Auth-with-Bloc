@@ -1,25 +1,28 @@
 import 'dart:developer';
 import 'dart:io';
 
+import 'package:auth_with_bloc/core/init/cache/auth_cache_manager.dart';
+import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter/foundation.dart' show immutable;
 import '../../constants/enums/auth_enums.dart';
-import '../service/i_auth_service.dart';
+import '../service/interface_auth_service.dart';
 
 part 'auth_event.dart';
 part 'auth_state.dart';
 
 class AuthBloc extends Bloc<AuthEvent, AuthState> {
   final IAuthService authService;
+  final AuthCacheManager authCacheManager;
 
-  AuthBloc(this.authService) : super(const AuthState.unknown()) {
+  AuthBloc(this.authService, this.authCacheManager)
+      : super(const AuthState.unknown()) {
     on<AppStarted>((event, emit) async {
       try {
-        if (await authService.isLoggedIn()) {
-          await authService.updateTokenFromStorage();
+        if (await authCacheManager.isLoggedIn()) {
+          await authCacheManager.updateTokenFromStorage();
           emit(const AuthState.authenticated());
         } else {
-          emit((await authService.isFirstEntry())
+          emit((await authCacheManager.isFirstEntry())
               ? const AuthState.firstEntry()
               : const AuthState.guest());
         }
@@ -33,12 +36,11 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
 
     on<LoginRequested>(
       (event, emit) async {
-        final response = await authService.login(
+        final String? response = await authService.login(
             email: event.email, password: event.password);
-        if (response.token != null) {
-          log(response.token!);
-          await authService.updateToken(response.token);
-          await authService.updateLoggedIn(true);
+        if (response != null) {
+          await authCacheManager.updateToken(response);
+          await authCacheManager.updateLoggedIn(true);
           emit(const AuthState.authenticated());
         } else {
           add(LogoutRequested());
@@ -49,11 +51,9 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
 
     on<LogoutRequested>((event, emit) async {
       try {
-        await authService.signOut();
+        await authCacheManager.signOut();
         emit(const AuthState.guest());
-      } catch (e) {
-        log(e.toString());
-      }
+      } catch (_) {}
     });
   }
 }

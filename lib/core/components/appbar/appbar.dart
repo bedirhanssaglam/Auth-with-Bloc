@@ -17,7 +17,7 @@ class CustomAppBar extends AppBar {
     this.isHome = false,
   }) : super(key: key);
 
-  final bool? isHome;
+  final bool isHome;
 
   @override
   State<AppBar> createState() => _CustomAppBarState();
@@ -46,15 +46,16 @@ class _CustomAppBarState extends State<CustomAppBar> {
         ],
       ),
       actions: [
-        widget.isHome!
+        widget.isHome
             ? IconButton(
                 onPressed: () {
                   context.read<AuthBloc>().add(LogoutRequested());
                   Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const LoginView(),
-                      ));
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const LoginView(),
+                    ),
+                  );
                 },
                 icon: const Icon(
                   Icons.logout_outlined,
