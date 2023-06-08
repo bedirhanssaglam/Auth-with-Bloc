@@ -1,4 +1,0 @@
-#Thu Jun 08 14:52:48 TRT 2023
-base.0=C\:\\Users\\bedir\\OneDrive\\Belgeler\\GitHub\\Auth-with-Bloc\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
