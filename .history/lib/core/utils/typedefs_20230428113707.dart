@@ -1,1 +1,0 @@
-typedef ChangeFunction = Function(String)?;
