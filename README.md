@@ -8,4 +8,4 @@ I created an example to show how we can do the login with BLoC and query the use
 
 # Medium Article About the Project
 
-<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@bedirhanssaglam/1"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@bedirhanssaglam/1" alt="Recent Article 1">
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@bedirhanssaglam/4"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@bedirhanssaglam/4" alt="Recent Article 4">
